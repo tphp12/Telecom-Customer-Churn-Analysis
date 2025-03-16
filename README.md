@@ -63,9 +63,9 @@ A leading telecommunications provider offering mobile and internet services, cat
 ---
 
 ## **5. Repository Structure**  
-- 📂 data/ → Raw and processed datasets
-- 📂 sql_queries/ → SQL scripts for ETL and data analysis
-- 📂 power_bi/ → Power BI (.pbix) file
-- 📂 images/ → Screenshots of Power BI reports
-- 📂 notebooks/ → Jupyter Notebook for churn prediction
+- 📂 Customer_Data.csv → Raw datasets
+- 📂 churn_script.sql → SQL scripts for ETL and data analysis
+- 📂 ChurnAnalysis.pbix → Power BI file
+- 📂 ChurnAnalysis.pdf → Images of Power BI reports
+- 📂 Churn Prediction/ → Jupyter Notebook for churn prediction
 - 📜 README.md → Project documentation (this file)
