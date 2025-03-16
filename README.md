@@ -1,26 +1,44 @@
-# Telecom Customer Churn Analysis
-## Overview
-This project aims to analyze customer churn in the telecom industry. I used Python, Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn for data processing, visualization, and machine learning modeling. Through this project, I gained insights into customer behavior and key factors influencing churn.
-## Problem Statement
-- Analyzing the Telecom Customer Churn dataset helps telecommunications companies analyze customer behavior and identify reasons for customer churn.
-- With 7,043 customers from a telecommunications company in California, this dataset provides information on customer profiles, services used, and current customer status, helping businesses come up with optimal strategies.
+# Telecom Customer Churn Analysis  
 
-## Dataset Description
-The dataset and its details are provided in telecom_data_dictionary.csv.
+## Project Description  
 
-## The questions about this dataset
-1. What is the churn rate?
-2. Which customer groups have the highest churn rates based on contract type?
-3. What are the main reasons for churn?
-4 .What are the most important factors in predicting churn?
-5. Predicting whether a customer will churn or not.
-## Steps Taken
-1. Data Collection
-2. Data Preprocessing
-3. Exploratory Data Analysis
-4. Feature Selection & Engineering
-5. Model Building & Evaluation 
-## Results & Limitations
-- Identified key factors influencing customer churn, such as contract type, monthly charges, and tenure.
-- The model achieved a reasonable performance in predicting churn.
-- Limitation: The dataset is limited in size, which may affect model generalizability.
+### About the Company  
+A major telecommunications company providing both mobile and internet services. The company offers various plans for individual and business customers.  
+
+### Objectives of the Report  
+- Analyze customer data to identify the reasons behind customer churn.  
+- Identify high-risk customer segments and propose retention strategies.  
+- Provide a list of new customers with a high likelihood of churning for proactive intervention.  
+- Suggest marketing strategies based on the characteristics of high-churn customers.  
+
+## Key Findings and Recommendations  
+
+📌 **Primary Reasons for Churn:** Competitors offering better devices and deals, followed by poor customer support, pricing issues, and flexible contracts.  
+
+### **Demographics Analysis**  
+- **Women over 50** make up a significant portion of the customer base and have a high churn rate due to competitors offering better devices.  
+  → **Recommendation:** Improve device quality and implement upgrade incentives for long-term customers.  
+- **Men with a tenure of 18-24 months in Chhattisgarh** have a 100% churn rate due to high costs and poor service experience.  
+  → **Recommendation:** Adjust pricing strategies based on regional needs and enhance customer support.  
+
+### **Account Information Analysis**  
+- **Mailed Check (37.8%) and Bank Withdrawal (34.4%)** have the highest churn rates.  
+  → **Recommendation:** Encourage Credit Card payments with cashback or discount incentives.  
+- **Month-to-month contracts have an almost 50% churn rate.**  
+  → **Recommendation:** Offer discounts for long-term contracts to increase customer commitment.  
+
+### **Service Usage Analysis**  
+- **Fiber Optic internet has the highest churn rate (41.1%)**, possibly due to service disruptions or high costs.  
+  → **Recommendation:** Improve service quality and introduce more flexible pricing plans.  
+- **Customers not subscribed to value-added services** like Device Protection, Online Backup, and Security have higher churn rates.  
+  → **Recommendation:** Promote bundled service packages with competitive pricing.  
+- **Churn remains high even among customers subscribed to Internet, Phone, and Unlimited Data.**  
+  → **Recommendation:** Investigate service quality issues and conduct customer surveys to identify pain points.  
+
+### **Churn Prediction for New Customers**  
+- **Approximately 92% of new customers (380/411) are at high risk of churning.**  
+  → **Recommendation:** Implement early-stage customer engagement programs and offer personalized retention incentives.  
+
+## Limitations and Areas for Improvement  
+- The dataset may not fully reflect long-term trends; a multi-year analysis is recommended.  
+- Lack of direct customer feedback makes it challenging to assess real user experience.  
